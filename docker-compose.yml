@@ -1,0 +1,6 @@
+version: '2.1'
+services:
+    test:
+        image: test
+        ports:
+            - "0.0.0.0:8080:5001"
